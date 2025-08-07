@@ -7,7 +7,7 @@
     padding: 0 20px;
 }
 
-.contato-imagem{
+.contato-imagem {
     flex: 1;
     min-width: 0;
 }
@@ -17,19 +17,19 @@
     height: auto;
 }
 
-.formularioContainer{
+.formularioContainer {
     max-width: 300px;
     margin: 10px auto;
     padding: 10px;
 }
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.formulario h3{
+.formulario h3 {
     color: #000;
     text-align: left;
     margin-bottom: 5px;
@@ -42,7 +42,7 @@
 
 .inputGrupo input,
 .inputGrupo select,
-.inputGrupo textarea{
+.inputGrupo textarea {
     box-sizing: border-box;
     width: 100%;
     padding: 7px 15px;
@@ -55,7 +55,7 @@
 
 .inputGrupo input:focus,
 .inputGrupo select:focus,
-.inputGrupo textarea:focus{
+.inputGrupo textarea:focus {
     border-color: #00274C;
     outline: none;
     background-color: #fff;
@@ -73,7 +73,7 @@
     min-height: 50px;
 }
 
-.submitBotao{
+.submitBotao {
     background-color: #1351d8;
     color: white;
     border: none;
@@ -88,18 +88,19 @@
     align-items: center;
 }
 
-.submitBotao:hover{
+.submitBotao:hover {
     background-color: #00274C;
     color: white;
     transform: translateY(-2px);
 }
 
-@media (max-width:768px){
-    .contatoPagina{
+@media (max-width:768px) {
+    .contatoPagina {
         flex-direction: column;
         gap: 20px;
     }
-    .formularioContainer{
+
+    .formularioContainer {
         width: 100%;
         max-width: 100%;
         padding: 0;

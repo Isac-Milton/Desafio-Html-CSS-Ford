@@ -40,11 +40,11 @@ header nav a {
     transition: color 0.3s ease;
 }
 
-header nav a:hover{
+header nav a:hover {
     color: #003478
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,22 +53,22 @@ footer{
     padding: 10px 40px;
 }
 
-.redesSociais{
+.redesSociais {
     display: flex;
     gap: 15px;
 }
 
-.redesSociais p{
+.redesSociais p {
     margin: 5px 0;
 }
 
 .redesSociais img,
-.logo_footer img{
+.logo_footer img {
     height: 30px;
     transition: transform 0.3s ease;
 }
 
-.redesSociais img:hover{
+.redesSociais img:hover {
     transform: scale(1.1);
 }
 
@@ -78,35 +78,36 @@ footer{
     text-align: center;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
-    header{
+    header {
         flex-direction: column;
         padding: 10px 20px;
     }
 
-    header nav ul{
+    header nav ul {
         gap: 15px;
         margin-top: 15px;
     }
 
-    footer{
+    footer {
         flex-direction: row;
         gap: 15px;
         padding: 20px;
         text-align: center;
     }
-        
-    .redesSociais p{
+
+
+    .redesSociais p {
         display: none;
     }
 
     .redesSociais img,
-    .logo_footer img{
+    .logo_footer img {
         height: 25px;
     }
 
-    .copyrightp{
+    .copyrightp {
         font-size: 8px;
         line-height: 1.4;
         max-width: 88%;

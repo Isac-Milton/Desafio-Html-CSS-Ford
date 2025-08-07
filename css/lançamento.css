@@ -1,9 +1,9 @@
-.texto_promocional{
+.texto_promocional {
     flex: 0 0 300px;
     padding-right: 20px;
 }
 
-.texto_promocional p{
+.texto_promocional p {
     font-size: 16px;
     line-height: 1.5;
     color: #000;
@@ -11,42 +11,42 @@
     text-align: left;
 }
 
-.video_promocional{
+.video_promocional {
     flex: 1;
     min-width: 0;
 }
 
-.video_promocional iframe{
+.video_promocional iframe {
     width: 90%;
     height: 500px;
     border-radius: 8px;
     border: none;
 }
 
-.tabelaCarros{
+.tabelaCarros {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.veiculo-card{
+.veiculo-card {
     width: 250px;
     padding: 15px;
     margin: 10px;
 }
 
-.veiculo-card img{
+.veiculo-card img {
     width: 100%;
     height: auto;
     margin-bottom: 0px;
 }
 
-.veiculoInformacao{
+.veiculoInformacao {
     display: flex;
     align-items: flex-start;
 }
 
-.veiculoInformacao input[type="checkbox"]{
+.veiculoInformacao input[type="checkbox"] {
     width: 30px;
     height: 30px;
     min-height: 20px;
@@ -58,19 +58,19 @@
     cursor: pointer;
 }
 
-.veiculoInformacao img{
+.veiculoInformacao img {
     width: 20px;
     margin-top: auto;
     vertical-align: bottom;
 }
 
-.texto-container{
+.texto-container {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
 
-.veiculoInformacao h5{
+.veiculoInformacao h5 {
     margin: 0;
     font-size: 12px;
     text-align: left;
@@ -78,14 +78,14 @@
     color: #1351d8;
 }
 
-.veiculoInformacao p{
+.veiculoInformacao p {
     margin: 0;
     font-size: 11px;
     text-align: left;
     color: #000;
 }
 
-.submit-botao{
+.submit-botao {
     background-color: #1351d8;
     color: #fff;
     border: none;
@@ -102,7 +102,7 @@
     max-width: 200px;
 }
 
-.submit-botao:hover{
+.submit-botao:hover {
     background-color: #00274C;
     color: white;
     transform: translateY(-2px);
