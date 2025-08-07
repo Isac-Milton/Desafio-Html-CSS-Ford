@@ -1,4 +1,4 @@
-.contatoPagina{
+.contatoPagina {
     display: flex;
     max-width: 900px;
     margin: 30px auto;
@@ -12,7 +12,7 @@
     min-width: 0;
 }
 
-.contato-imagem img{
+.contato-imagem img {
     width: 100%;
     height: auto;
 }
@@ -30,7 +30,7 @@
 }
 
 .formulario h3{
-    color: black;
+    color: #000;
     text-align: left;
     margin-bottom: 5px;
     font-size: 1.3rem;
@@ -42,7 +42,7 @@
 
 .inputGrupo input,
 .inputGrupo select,
-.inputGrupo texturea{
+.inputGrupo textarea{
     width: 100%;
     padding: 7px 15px;
     border: 1px solid #ddd;
@@ -54,11 +54,11 @@
 
 .inputGrupo input:focus,
 .inputGrupo select:focus,
-.inputGrupo texturea:focus{
+.inputGrupo textarea:focus{
     border-color: #00274C;
     outline: none;
-    background-color: white;
-    box-shadow: 0 0 0 2px rgb(0, 39, 76, 0.1);   
+    background-color: #fff;
+    box-shadow: 0 0 0 2px rgb(0, 39, 76, 0.1);
 }
 
 .inputGrupo select {
@@ -70,4 +70,37 @@
 .inputGrupo textarea {
     resize: vertical;
     min-height: 50px;
+}
+
+.submitBotao{
+    background-color: #1351d8;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitBotao:hover{
+    background-color: #00274C;
+    color: white;
+    transform: translateY(-2px);
+}
+
+@media (max-width:768px){
+    .contatoPagina{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .formularioContainer{
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
 }

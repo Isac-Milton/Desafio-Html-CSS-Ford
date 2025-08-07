@@ -10,39 +10,67 @@
 </head>
 
 <body>
-    <header>
 
+    <header>
+        <img src="/img/logo-ford-256.png" alt="Logo Ford">
+        <nav>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/lancamento.html">Lançamento</a></li>
+                <li><a href="/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div></div>
     </header>
-    <main class="ContatoPagina">
-<div class="contato-imagem">
-    <img src="/img/xls 2.2 diesel.jpg">
-    <form class="formularioContainer">
-        <h3>Sobre Você</h3>
-        <div class="inputGrupo">
-            <input type="text" placeholder="Nome completo">
+
+    <main class="contatoPagina">
+        <div class="contato-imagem">
+            <img src="/img/xls 2.2 diesel.jpg" alt="Veiculo Contato">
         </div>
-        </div> class="inputGrupo">
-            <input type="email" placeholder="E-mail">
-        </div>
-        <div class="inputGrupo">
-            <input type="tel" placeholder="Telefone">
-        </div>
-        <div class="inputGrupo">
-            <select>
-                <option value=""disabled selected hidden>Tipo de Contato</option>
-                <option value="elogio">Elogio</option>
-                <option value="reclamação">Solicitação</option>
-            </select>
-        </div>
-        <div class="inputGrupo">
-            <textarea placeholder="Digite sua mensagem" row="2"></textarea>
-        </div>
-        <button type="inputGrupo">
-            <span>Enviear Mensagem</span>
-        </button>
-    </form>
-</div>
+        <section class="formularioContainer">
+            <form class="formulario">
+                <h3>Sobre Você</h3>
+                <div class="inputGrupo">
+                    <input type="text" placeholder="Nome completo">
+                </div>
+                <div class="inputGrupo">
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div class="inputGrupo">
+                    <input type="tel" placeholder="Telefone">
+                </div>
+                <div class="inputGrupo">
+                    <select>
+                        <option value="" disabled selected hidden>Tipo de Contato</option>
+                        <option value="elogio">Elogio</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="solicitacao">Solicitação</option>
+                    </select>
+                </div>
+                <div class="inputGrupo">
+                    <textarea placeholder="Digite sua mensagem" rows="2"></textarea>
+                </div>
+                <button type="submit" class="submitBotao">
+                    <span>Enviar Mensagem</span>
+                </button>
+            </form>
+        </section>
     </main>
+
+    <footer>
+        <div class="redesSociais">
+            <p>Redes Sociais</p>
+            <a href="https://facebook.com/fordbrasil"><img src="/img/facebook-50.png" alt="Facebook"></a>
+            <a href="https://instagram.com/fordbrasil"><img src="/img/instagram-logo-50.png" alt="Instagram"></a>
+            <a href="https://youtube.com/fordbrasil"><img src="/img/youtube-squared-50.png" alt="Youtube"></a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Ford Motor Company todos os direitos reservados</p>
+        </div>
+        <div class="logo_footer">
+            <img src="/img/ford-96.png" alt="Logo footer">
+        </div>
+    </footer>
 </body>
 
 </html>
