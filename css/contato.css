@@ -43,6 +43,7 @@
 .inputGrupo input,
 .inputGrupo select,
 .inputGrupo textarea{
+    box-sizing: border-box;
     width: 100%;
     padding: 7px 15px;
     border: 1px solid #ddd;
