@@ -107,3 +107,22 @@
     color: white;
     transform: translateY(-2px);
 }
+
+/* RESPONSIVIDADE */
+
+@media (min-width: 768px) {
+    .tabelaCarros {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tabelaCarros tr {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .tabelaCarros td {
+        width: auto;
+    }
+}

@@ -94,6 +94,7 @@
     transform: translateY(-2px);
 }
 
+    /* Responsividade */
 @media (max-width:768px) {
     .contatoPagina {
         flex-direction: column;
